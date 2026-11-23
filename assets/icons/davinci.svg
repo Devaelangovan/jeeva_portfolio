@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="10" fill="#0B132B"/>
+  <circle cx="24" cy="24" r="21" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <!-- DaVinci three-color pinwheel / petal motif -->
+  <path d="M24 10 C16 10 12 18 17 24 C19 21 21 19 24 19 C27 19 29 21 31 24 C36 18 32 10 24 10 Z" fill="#EF4444" opacity="0.95"/>
+  <path d="M14 27 C10 33 15 39 22 36 C21 33 21 30 23 27 C21 25 18 24 15 25 C14.6 25.6 14.3 26.3 14 27 Z" fill="#3B82F6" opacity="0.95"/>
+  <path d="M34 27 C38 33 33 39 26 36 C27 33 27 30 25 27 C27 25 30 24 33 25 C33.4 25.6 33.7 26.3 34 27 Z" fill="#10B981" opacity="0.95"/>
+  <circle cx="24" cy="24" r="3.5" fill="#F8FAFC"/>
+</svg>

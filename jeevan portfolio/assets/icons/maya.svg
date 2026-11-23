@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="10" fill="#0A1926"/>
+  <rect x="2" y="2" width="44" height="44" rx="8" fill="none" stroke="#00B4D8" stroke-width="1.5"/>
+  <!-- Maya 'M' stylized 3D ribbon mark -->
+  <path d="M11 35 L11 15 L19 26 L27 15 L27 35 L23 35 L23 21 L19 27 L15 21 L15 35 Z" fill="#00B4D8"/>
+  <path d="M27 15 L37 15 L37 35 L33 35 L33 19 L27 19 Z" fill="#90E0EF"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="10" fill="#001E36"/>
+  <rect x="2" y="2" width="44" height="44" rx="8" fill="none" stroke="#31A8FF" stroke-width="2"/>
+  <text x="14" y="32" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-weight="800" font-size="20" fill="#31A8FF">P</text>
+  <text x="27" y="32" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-weight="700" font-size="16" fill="#31A8FF">s</text>
+</svg>

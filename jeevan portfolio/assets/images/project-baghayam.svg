@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="templeSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="40%" stop-color="#1E293B"/>
+      <stop offset="70%" stop-color="#312E81"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+
+    <radialGradient id="sunGlow" cx="65%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#D97706" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Backdrop -->
+  <rect width="1200" height="700" fill="url(#templeSky)"/>
+  <circle cx="780" cy="300" r="350" fill="url(#sunGlow)"/>
+
+  <!-- Background Temple Gopuram & Mandapam Silhouettes -->
+  <g fill="#080D1A" opacity="0.85">
+    <!-- Traditional Gopuram Tower Silhouette -->
+    <polygon points="780,110 760,140 800,140" fill="#0C152B"/>
+    <polygon points="750,140 810,140 820,180 740,180" fill="#091024"/>
+    <polygon points="730,180 830,180 845,230 715,230" fill="#070C1B"/>
+    <polygon points="705,230 855,230 870,290 690,290" fill="#060914"/>
+    <polygon points="680,290 880,290 900,360 660,360" fill="#050811"/>
+    <polygon points="650,360 910,360 930,440 630,440" fill="#04060C"/>
+    
+    <!-- Temple Kalasams (Finials on top) -->
+    <line x1="770" y1="95" x2="770" y2="110" stroke="#F59E0B" stroke-width="2"/>
+    <line x1="780" y1="90" x2="780" y2="110" stroke="#F59E0B" stroke-width="3"/>
+    <line x1="790" y1="95" x2="790" y2="110" stroke="#F59E0B" stroke-width="2"/>
+    <circle cx="780" cy="88" r="4" fill="#F59E0B"/>
+
+    <!-- Stone Pillars Mandapam Corridor (Right Side) -->
+    <rect x="940" y="320" width="18" height="150" rx="2"/>
+    <rect x="980" y="320" width="18" height="150" rx="2"/>
+    <rect x="1020" y="320" width="18" height="150" rx="2"/>
+    <rect x="1060" y="320" width="18" height="150" rx="2"/>
+    <rect x="930" y="305" width="160" height="18" rx="2"/>
+    <rect x="930" y="465" width="160" height="15" rx="2"/>
+
+    <!-- Left Temple Wall & Deep Archway -->
+    <path d="M 60 480 L 60 310 Q 150 250 240 310 L 240 480 Z" fill="#091024"/>
+    <path d="M 100 480 L 100 350 Q 150 310 200 350 L 200 480 Z" fill="#04070F"/>
+  </g>
+
+  <!-- Ground Stone Courtyard -->
+  <rect x="0" y="470" width="1200" height="230" fill="url(#groundGrad)"/>
+  <line x1="0" y1="470" x2="1200" y2="470" stroke="#334155" stroke-width="2"/>
+
+  <!-- Field Production Rig: Cinema Camera on Heavy Duty Tripod (Center Left) -->
+  <g transform="translate(320, 260)">
+    <!-- Tripod Legs (Spread out) -->
+    <line x1="160" y1="210" x2="60" y2="390" stroke="#475569" stroke-width="7"/>
+    <line x1="160" y1="210" x2="160" y2="400" stroke="#334155" stroke-width="8"/>
+    <line x1="160" y1="210" x2="260" y2="390" stroke="#475569" stroke-width="7"/>
+    <!-- Tripod Spreader & Carbon Fiber accents -->
+    <line x1="105" y1="310" x2="215" y2="310" stroke="#38BDF8" stroke-width="2" opacity="0.6"/>
+    <rect x="140" y="195" width="40" height="20" rx="4" fill="#1E293B" stroke="#64748B"/>
+
+    <!-- Fluid Head & Baseplate -->
+    <rect x="125" y="170" width="70" height="28" rx="4" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+
+    <!-- Cinema Camera Body (ARRI / RED Style) -->
+    <rect x="90" y="110" width="140" height="65" rx="6" fill="#090E1A" stroke="#38BDF8" stroke-width="2"/>
+    <rect x="100" y="120" width="40" height="30" rx="2" fill="#020617" stroke="#10B981" stroke-width="1"/>
+    <text x="108" y="138" font-family="'JetBrains Mono', monospace" font-size="8" fill="#10B981">4K RAW</text>
+
+    <!-- Matte Box with French Flags & Cinema Cine Prime Lens -->
+    <polygon points="90,120 40,95 40,165 90,155" fill="#04060C" stroke="#475569" stroke-width="2"/>
+    <!-- Top French Flag Barndoor -->
+    <polygon points="35,95 85,95 80,80 40,80" fill="#1E293B"/>
+
+    <!-- Shotgun Directional Microphone with Blimp Fur / Windscreen -->
+    <rect x="120" y="80" width="75" height="18" rx="8" fill="#334155" stroke="#64748B" stroke-width="1"/>
+    <path d="M 140 100 L 140 110" stroke="#64748B" stroke-width="3"/>
+
+    <!-- Wireless Video Transmitter (Dual Antennas) -->
+    <rect x="200" y="85" width="22" height="35" rx="3" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+    <line x1="205" y1="85" x2="200" y2="60" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="217" y1="85" x2="222" y2="60" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Signal Wave Transmission Rings -->
+    <path d="M 195 50 A 15 15 0 0 1 227 50" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <path d="M 185 40 A 30 30 0 0 1 237 40" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- V-Mount Battery on rear -->
+    <rect x="228" y="115" width="22" height="45" rx="4" fill="#1E293B" stroke="#64748B"/>
+    <circle cx="239" cy="130" r="3" fill="#10B981"/>
+
+    <!-- On-Camera Field Monitor with Sunshade -->
+    <polygon points="175,70 170,105 135,105 140,70" fill="#04070E" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="148" y="92" font-family="'JetBrains Mono', monospace" font-size="8" fill="#EF4444">REC ●</text>
+  </g>
+
+  <!-- Field Production Coordinator Station (Right Side) -->
+  <g transform="translate(740, 360)">
+    <!-- Portable Director C-Stand with 7" Wireless Field Monitor -->
+    <line x1="80" y1="90" x2="80" y2="280" stroke="#64748B" stroke-width="6"/>
+    <!-- C-Stand Turtle Base Legs -->
+    <line x1="80" y1="280" x2="20" y2="300" stroke="#475569" stroke-width="6"/>
+    <line x1="80" y1="280" x2="140" y2="300" stroke="#475569" stroke-width="6"/>
+    <!-- Sandbag at base -->
+    <ellipse cx="80" cy="285" rx="30" ry="12" fill="#B45309"/>
+
+    <!-- High-Bright Director Monitor Unit with Sunhood -->
+    <g transform="translate(15, 20)">
+      <polygon points="0,0 130,0 120,80 10,80" fill="#070B14" stroke="#38BDF8" stroke-width="2"/>
+      <rect x="15" y="10" width="100" height="60" rx="3" fill="#020617"/>
+      <!-- Monitor live display -->
+      <polygon points="30,55 50,25 70,25 90,55" fill="#312E81"/>
+      <circle cx="60" cy="40" r="10" fill="#F59E0B"/>
+      <text x="25" y="63" font-family="'JetBrains Mono', monospace" font-size="7" fill="#10B981">TX-01 LOCK | 100%</text>
+      <text x="25" y="22" font-family="'JetBrains Mono', monospace" font-size="7" fill="#EF4444">● LIVE REC</text>
+    </g>
+
+    <!-- Field Coordinator Clipboard & Logistics Schedule -->
+    <g transform="translate(180, 100)">
+      <rect width="180" height="190" rx="6" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5"/>
+      <rect x="0" y="0" width="180" height="28" fill="#1E293B" rx="4"/>
+      <text x="12" y="19" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#FFFFFF">BAGHAYAM TV — FIELD OP</text>
+      
+      <!-- Logistics Checklist -->
+      <g transform="translate(15, 45)" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8">
+        <text x="0" y="0" fill="#38BDF8" font-weight="700">LOCATION &amp; SHOOT LOGISTICS:</text>
+        
+        <text x="0" y="22" fill="#10B981">✓ Temple Authority Permission</text>
+        <text x="0" y="42" fill="#10B981">✓ Camera Crew &amp; OB Unit Ready</text>
+        <text x="0" y="62" fill="#10B981">✓ Field Logistics &amp; Transport</text>
+        <text x="0" y="82" fill="#10B981">✓ Wireless Feed Sync Verified</text>
+        
+        <rect x="0" y="100" width="150" height="32" rx="3" fill="#070B14" stroke="#334155"/>
+        <text x="10" y="115" fill="#F59E0B" font-size="8" font-weight="700">STATUS: ACTIVE FIELD SHOOT</text>
+        <text x="10" y="126" fill="#64748B" font-size="8">COORDINATOR: JEEVAN V</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Editorial Watermark Banner -->
+  <g transform="translate(40, 645)">
+    <rect width="1120" height="35" rx="5" fill="#070B14" stroke="#1E293B" stroke-width="1"/>
+    <text x="25" y="22" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38BDF8" font-weight="700" letter-spacing="1.5">PROJECT ARCHIVE: BAGHAYAM TV — ON-GROUND FIELD COORDINATION</text>
+    <text x="750" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94A3B8" letter-spacing="1">[ FIELD PRODUCTION SIMULATION // ILLUSTRATIVE ARCHIVE ]</text>
+  </g>
+</svg>
